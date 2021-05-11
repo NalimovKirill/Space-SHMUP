@@ -289,8 +289,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1145313977085123424}
   - component: {fileID: 1145313977085123455}
-  - component: {fileID: -1693699760286243278}
-  - component: {fileID: -4240335147597092731}
+  - component: {fileID: 5414288672451251720}
+  - component: {fileID: 8204804949914217820}
   m_Layer: 9
   m_Name: Enemy_2
   m_TagString: Enemy
@@ -331,7 +331,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 120
   m_CollisionDetection: 0
---- !u!114 &-1693699760286243278
+--- !u!114 &5414288672451251720
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -340,14 +340,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1145313977085123454}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cea809f7ba3223a4a8fb1f7565de5a1a, type: 3}
+  m_Script: {fileID: 11500000, guid: 9b7a063b910d1594086505cb8472283c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  fireRate: 0.3
-  health: 10
-  score: 100
---- !u!114 &-4240335147597092731
+--- !u!114 &8204804949914217820
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -359,8 +355,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 837606c005fa33241b59cc64b1c944f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 1
-  keepOnScreen: 1
+  radius: 3
+  keepOnScreen: 0
   IsOnScreen: 1
   camWidth: 0
   camHeight: 0

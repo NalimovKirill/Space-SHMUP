@@ -254,7 +254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabEnemies:
-  - {fileID: 3495820303409682456, guid: 1e045cdfa25b2b944b6e22cd492e98e2, type: 3}
+  - {fileID: 5686055580408324130, guid: f28422215756e764dba2c667e295aa6d, type: 3}
   enemySpawnPerSecond: 0.5
   enemyDefaultPadding: 1.5
 --- !u!20 &519420031
@@ -267,7 +267,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.21698111, g: 0.0972321, b: 0.17197657, a: 1}
+  m_BackGroundColor: {r: 0.19491532, g: 0.06666667, b: 0.5019608, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour
     public float health = 10;
     public int score = 100;         // Очки за уничтожение корабля
 
-    private BoundsCheck bndCheck;
+    protected BoundsCheck bndCheck;
 
     private void Awake()
     {
